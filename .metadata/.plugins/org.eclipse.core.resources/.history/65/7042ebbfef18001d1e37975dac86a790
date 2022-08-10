@@ -1,0 +1,58 @@
+ body {
+ 	font-family: sans-serif;
+ 	font-size: 0.85em;
+}
+ .container {
+ 	height: 100vh;
+ 	width: auto; 
+ 	justify-content: center;
+ 	display: flex;
+ }
+ table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.form-group {
+ 	position: relative;
+ 	margin-bottom: 10px;
+	overflow: hidden; 
+}
+.table-gorup {
+	position: relative;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	overflow: hidden; 
+}
+.total-gorup {
+	position: relative;
+	margin-top: 10px;
+	overflow: hidden; 
+}
+.section-login{
+	padding-left: 15px;
+	width: 40vh;
+	height:22vh;
+	background-color: #e7e6e6;
+	border-style: solid;
+  	border-color: #92a8d1;
+}
+.section-sale{
+	padding-left: 15px;
+	width: 60vh;
+	height:35vh;
+	background-color: #e7e6e6;
+	border-style: solid;
+  	border-color: #92a8d1;
+}
+.col-25 {
+	float: left;
+	width: 25%;
+}
+.col-75 {
+	float: left;
+	width: 75%;
+}
+.center{
+	align-items:center;
+	text-align: center;
+}

@@ -1,0 +1,9 @@
+package com.torre.model;
+
+public class Invoice {
+	private int id;
+	private int invoice;
+	private String product;
+	private int quantity;
+	private float price;
+}

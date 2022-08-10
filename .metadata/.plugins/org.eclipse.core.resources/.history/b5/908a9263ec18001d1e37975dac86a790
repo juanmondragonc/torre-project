@@ -1,0 +1,21 @@
+ .container {
+ 	height: 100vh;
+ 	width: auto; 
+ 	justify-content: center;
+ 	display: flex;
+ }
+ table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.form-group {
+ 	position: relative;
+ 	margin-bottom: 25px;
+	overflow: hidden; 
+}
+.section-login{
+	padding-left: 2px;
+	width: 30vh;
+	height:25vh;
+	background-color: #e7e6e6;
+}

@@ -1,0 +1,23 @@
+.display-flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+ }
+ .container {
+ 	height: 100vh;
+ 	width: auto; 
+ }
+ .center{
+ 	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	padding-left:30%;
+	padding-right:30%;
+	width:70%;
+	background-color: gray;
+ }

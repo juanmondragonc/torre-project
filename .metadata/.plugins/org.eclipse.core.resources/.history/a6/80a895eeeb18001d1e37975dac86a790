@@ -1,0 +1,22 @@
+ .container {
+ 	height: 100vh;
+ 	width: auto; 
+ 	justify-content: center;
+ 	display: flex;
+ }
+ .section-login{
+	align-items: left;
+	text-align: left;
+	width: 50%;
+	height:50%;
+	background-color: #e7e6e6;
+ }
+ table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.form-group {
+ 	position: relative;
+ 	margin-bottom: 25px;
+	overflow: hidden; 
+ }

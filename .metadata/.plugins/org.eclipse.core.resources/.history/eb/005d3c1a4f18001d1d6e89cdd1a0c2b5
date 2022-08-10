@@ -1,0 +1,9 @@
+<html>
+<body>
+<form>
+	<label>Login</label>
+	<label>Usuario</label>
+	<label>Contraseña</label>
+</form>
+</body>
+</html>

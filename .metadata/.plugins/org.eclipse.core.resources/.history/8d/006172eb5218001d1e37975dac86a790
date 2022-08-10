@@ -1,0 +1,15 @@
+<html>
+<link rel="stylesheet" href="css/style.css">
+<body>
+	<div class="display-flex-center">
+		<form>
+			<label>Login</label>
+			<label for="username">Usuario</label>
+			<input id="username" type="text"/>
+			<label for="password">Contraseña</label>
+			<input id="password" type="password"/>
+			<input type="button" value="Ingresar"/>
+		</form>
+	</div>
+</body>
+</html>

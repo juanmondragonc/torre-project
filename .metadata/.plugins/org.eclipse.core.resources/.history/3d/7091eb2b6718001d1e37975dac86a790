@@ -1,0 +1,60 @@
+<%
+	if(session.getAttribute("username")==null){
+		response.sendRedirect("login.jsp");
+	}
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="center">
+			<h3>CONSULTA DE VENTAS</h3>
+			<label>Folio de Venta:</label>
+			<input type="text" /> 
+			<input type="button" value="Consultar"/>
+			<label>Listado de Productos:</label>
+			<table>
+			  <tr>
+			    <th>No.</th>
+			    <th>Producto</th>
+			    <th>Cantidad</th>
+			    <th>Precio unitario</th>
+			    <th>Total</th>
+			  </tr>
+			  <tr>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			  </tr>
+			  <tr>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			  </tr>
+			  <tr>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			  </tr>
+			  <tr>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			  </tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

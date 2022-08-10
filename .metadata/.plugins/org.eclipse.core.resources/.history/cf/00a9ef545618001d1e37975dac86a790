@@ -1,0 +1,21 @@
+.display-flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+ }
+ .container {
+ 	height: 100vh;
+ 	width: auto; 
+ 	justify-content: center;
+ 	display: flex;
+ }
+ .center{
+	align-items: center;
+	text-align: center;
+	width: 50%;
+	background-color: gray;
+ }
